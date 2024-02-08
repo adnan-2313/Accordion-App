@@ -1,5 +1,5 @@
 import React,{useState} from 'react'
-import "./Accordion.css";
+// import "./Accordion.css";
 const MyAccordion = ({question,answer}) => {
     const[show,setShow] = useState();
     const changeState=()=>{
